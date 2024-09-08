@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.li{
+    list-style: none;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.header{
+    padding: 17px 0;
+    font-family: Lato;
+}
+
+.container{
+    min-width: 1400px;
+    margin: 0 auto;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__link{
+    color: #292929;
+    tab-size: 20px;
+    font-weight: 500;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.header__item{
+    margin-right: 70px;
+}
+
+.header__btn_btn{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #01996d;
+    padding: 13px 50px;
+    border-radius: 4px;
+    border: none;
+}
+
+.header__btn_btn_white{
+    color: #000;
+    background-color: #fff;
+}
+ 
+.main{
+    background: url(./BG.png) no-repeat center center / cover;
+    height: 90vh;
+}
+
+.main__info{
+    min-width: 440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title{
+    color: #01996d;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+} 
+
+.main__text{
+    color: #484848;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+ 
+.steps{
+    padding: 169px 0 255px 0;
+}
+
+.steps__subtitle{
+    color: #424242;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.steps__title{
+    color: #01996d;
+    font-weight: 900;
+    font-size: 50px;
+    min-width: 584px; 
+}
+
+.steps__text{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 500;  
+}
+
+.steps__block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+
+.steps__card-title{
+    color: #000;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.steps__card{
+    min-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps__row{
+    display: flex;
+}
+
+.steps__pic img{
+    border-radius: 12px;
+}
+
+.sdeps{
+    background-color: #01996d;
+}
+
+.sep{
+    background-color: #01996d;
+    font-family: lato;
+}
+
+.container_3{
+    color: #fff;
+}
+
+
+
